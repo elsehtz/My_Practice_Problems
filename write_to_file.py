@@ -9,7 +9,7 @@ import os
 def main():
     # Case 1: txt
     file_type = input("What kind of file are you writing to? (txt, json, csv)\n").lower()
-    if(file_type == 'txt'):
+    if(file_type == 'txt'):a
         file1 = open("write_to_file_practice.txt","w")# w for write mode, a for append mode
         file1.write(input("Type something to put into example txt file\n"))
         print("Check write_to_file_practice.txt in the directory to see!")
